@@ -1,0 +1,33 @@
+# ModelSim / QuestaSim 仿真文件
+*.vcd
+*.log
+*.wlf
+*.vsim
+transcript
+work/
+*.mif
+*.hex.bak
+*.vstf
+*.do~
+
+# Verilog / SystemVerilog 临时文件
+*.bak
+*.swp
+*.swo
+*.v~
+*.sv~
+*.vhd~
+
+# 编译/生成文件
+*.o
+*.obj
+*.exe
+*.out
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
