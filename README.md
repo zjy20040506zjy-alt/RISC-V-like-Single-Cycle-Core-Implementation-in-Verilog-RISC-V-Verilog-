@@ -1,24 +1,27 @@
-Single-Cycle Processor Core (Verilog)
-A full-featured single-cycle embedded processor core implemented in synthesizable Verilog HDL. This project includes a complete data path, control unit, independent instruction and data memory, register file, ALU, immediate extension unit, and address generation logic. The design is verified with a complete simulation flow using ModelSim.
-Features
-Full RTL implementation of a single-cycle embedded processor architecture
-Clear separation of controller and data path modules
-Independent instruction memory and data memory (1 KB each)
-Integrated register file, arithmetic logic unit (ALU), immediate extension, and program counter logic
-Complete simulation and verification environment using ModelSim
-Testbench-driven functional validation for all instruction behaviors
-Module Overview
-Top-level module: core_top.v
-Controller: controller.v
-Program counter: program_counter.v
-Register file: reg_file.v
-Arithmetic logic unit: alu.v
-Instruction RAM: inst_ram.v
-Data RAM: data_ram.v
-Immediate extension unit: extend.v
-Testbench: tb_core.v
-Simulation Flow
-Compile all RTL design files
-Load instruction hex file into instruction memory
-Run behavioral simulation in ModelSim
-Verify waveforms, register values, and memory access behavior
+# Single-Cycle Processor Core (Verilog)
+A full-featured single-cycle processor core implemented in synthesizable Verilog HDL, with complete control path, data path, and automated simulation flow.
+
+## Features
+- Full RTL implementation of a single-cycle embedded processor
+- Independent controller & datapath separation
+- Instruction memory & data memory (1KB each)
+- Register file, ALU, immediate extension, and address generation
+- Simulation & verification platform with ModelSim
+- Fully testbench-driven validation
+
+## Module Overview
+- Top-level: core_top.v
+- Controller: controller.v
+- Program counter: program_counter.v
+- Register file: reg_file.v
+- ALU: alu.v
+- Instruction RAM: inst_ram.v
+- Data RAM: data_ram.v
+- Immediate extend: extend.v
+- Testbench: tb_core.v
+
+## Simulation Flow
+1. Compile all RTL files
+2. Load instruction hex
+3. Run ModelSim simulation
+4. Verify waveform & register/memory behavior
