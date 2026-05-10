@@ -1,0 +1,80 @@
+F:/Study/MIPS_Project/ext.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/ext.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} F:/Study/MIPS_Project/npc.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} F:/Study/MIPS_Project/mux.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/mux.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mux2_32
+-- Compiling module mux3_5
+
+Top level modules:
+	mux2_32
+	mux3_5
+
+} {} {}} F:/Study/MIPS_Project/alu.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} F:/Study/MIPS_Project/ctrl.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} F:/Study/MIPS_Project/im.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} F:/Study/MIPS_Project/tb_mips.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/tb_mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module tb_mips
+
+Top level modules:
+	tb_mips
+
+} {} {}} F:/Study/MIPS_Project/dm.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} F:/Study/MIPS_Project/gpr.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/gpr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} F:/Study/MIPS_Project/mips.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} F:/Study/MIPS_Project/pc.v {1 {vlog -work work -vopt F:/Study/MIPS_Project/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}}
