@@ -1,8 +1,0 @@
-module ext(
-    input [15:0] imm_in,    // ???16????
-    input ext_op,           // ?????0=????1=????
-    output [31:0] imm_out
-);
-assign imm_out = ext_op ? {{16{imm_in[15]}}, imm_in} :  // ????
-                          {16'd0, imm_in};             // ???
-endmodule
