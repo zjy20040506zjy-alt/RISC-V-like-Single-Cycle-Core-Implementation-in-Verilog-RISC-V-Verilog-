@@ -11,13 +11,13 @@ A full-featured single-cycle processor core implemented in synthesizable Verilog
 
 ## Module Overview
 - Top-level: core_top.v
-- Controller: controller.v
-- Program counter: program_counter.v
+- Controller: ctrl.v
+- Program counter: pc.v
 - Register file: reg_file.v
 - ALU: alu.v
-- Instruction RAM: inst_ram.v
-- Data RAM: data_ram.v
-- Immediate extend: extend.v
+- Instruction RAM: im.v
+- Data RAM: dm.v
+- Immediate extend: ext.v
 - Testbench: tb_core.v
 
 ## Simulation Flow
