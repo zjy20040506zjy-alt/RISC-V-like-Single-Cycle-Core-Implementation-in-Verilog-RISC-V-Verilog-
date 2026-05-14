@@ -1,0 +1,22 @@
+module ALU(data1, data2, zero, Addr, ALUctr, out);
+input[31:0] data1, data2;
+input[1:0] ALUctr;
+
+output[31:0] Addr;
+output reg[31:0] out;
+output zero;
+
+always@(*)
+begin
+case(ALUctr)
+2'b00: begin out <= data1 + data2; end
+2'b01: begin out <= data1 - data2; end
+2'b10: begin out <= data1 | data2; end
+endcase
+end
+
+assign zero = (out==32'b0)?1:0;
+assign Addr = out;
+
+endmodule
+
